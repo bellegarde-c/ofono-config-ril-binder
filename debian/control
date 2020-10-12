@@ -1,0 +1,26 @@
+Source: ofono-config-ril-binder
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/hybris-mobian/ofono-config-ril-binder
+Vcs-Git: https://github.com/hybris-mobian-releng/ofono-config-ril-binder.git
+
+Package: ofono-config-ril-binder
+Architecture: all
+Depends: ${misc:Depends},
+         ofono,
+         ofono-ril-binder-plugin
+Description: ofono configuration for devices using binder as transport
+ This package contains the ofono configuration for devices using
+ binder as transport.
+
+Package: ofono-config-ril-binder-dual-sim
+Architecture: all
+Depends: ofono-config-ril-binder (= ${binary:Version})
+Description: ofono configuration for devices using binder as transport (dual sim addon)
+ This package contains the ofono configuration for devices using
+ binder as transport.
+ .
+ This package adds support for dual sim devices.
