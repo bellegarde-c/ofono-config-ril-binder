@@ -9,8 +9,8 @@ Vcs-Git: https://github.com/hybris-mobian-releng/ofono-config-ril-binder.git
 
 Package: ofono-config-ril-binder
 Architecture: all
+Pre-Depends: ofono
 Depends: ${misc:Depends},
-         ofono,
          ofono-ril-binder-plugin
 Description: ofono configuration for devices using binder as transport
  This package contains the ofono configuration for devices using
