@@ -19,8 +19,19 @@ Description: ofono configuration for devices using binder as transport
 Package: ofono-config-ril-binder-dual-sim
 Architecture: all
 Depends: ofono-config-ril-binder (= ${binary:Version})
+Conflicts: ofono-config-ril-binder-single-sim-sim2
 Description: ofono configuration for devices using binder as transport (dual sim addon)
  This package contains the ofono configuration for devices using
  binder as transport.
  .
  This package adds support for dual sim devices.
+
+Package: ofono-config-ril-binder-single-sim-sim2
+Architecture: all
+Depends: ofono-config-ril-binder (= ${binary:Version})
+Conflicts: ofono-config-ril-binder-dual-sim
+Description: ofono configuration for devices using binder as transport (dual sim addon, SIM2-only)
+ This package contains the ofono configuration for devices using
+ binder as transport.
+ .
+ This package adds support for dual sim devices, but forces only SIM2 to be used.
