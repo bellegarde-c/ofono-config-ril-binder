@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ofono-config-ril-binder
-Source: https://github.com/hybris-mobian/ofono-config-ril-binder
+Source: https://github.com/droidian/ofono-config-ril-binder
 
 Files: debian/*
 Copyright: 2020 Eugenio "g7" Paolantonio <me@medesimo.eu>
