@@ -1,4 +1,4 @@
-Source: ofono-configs-binder
+Source: ofono-config-ril-binder
 Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 Section: misc
 Priority: optional
